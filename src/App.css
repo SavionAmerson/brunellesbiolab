@@ -41,7 +41,7 @@ body{
 
 .topic-section{
     background-color: #6ea330;
-    height: 600px;
+    height: 550px;
     font-family: 'Rubik Mono One', sans-serif;
     color: white;
     display: flex;
@@ -63,6 +63,9 @@ body{
     height: 450px;
     font-size: 12px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .dna h2{
@@ -77,6 +80,9 @@ body{
     margin-left: 10%;
     font-size: 12px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .bacteria h2{
@@ -91,8 +97,29 @@ body{
     margin-left: 10%;
     font-size: 12px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .cryogenics h2{
     font-size: 10px; 
+}
+
+.dna-graphic{
+    width: 80%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.bacteria-graphic{
+    width: 80%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.ice-graphic{
+    width: 80%;
+    padding-left: 10%;
+    padding-bottom: 5%;
 }
