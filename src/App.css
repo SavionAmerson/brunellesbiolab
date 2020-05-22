@@ -36,7 +36,12 @@ body{
     background-size: 100% 600px;
     height: 600px;
     color: white;
+    /* -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: left top, left bottom; */
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    opacity: 90%;
 }
 
 .topic-section{
@@ -69,7 +74,7 @@ body{
 }
 
 .dna h2{
-    font-size: 10px; 
+    font-size: 12px; 
 }
 
 .bacteria{
@@ -86,7 +91,7 @@ body{
 }
 
 .bacteria h2{
-    font-size: 10px; 
+    font-size: 12px; 
 }
 
 .cryogenics{
@@ -103,7 +108,7 @@ body{
 }
 
 .cryogenics h2{
-    font-size: 10px; 
+    font-size: 12px; 
 }
 
 .dna-graphic{
@@ -122,4 +127,108 @@ body{
     width: 80%;
     padding-left: 10%;
     padding-bottom: 5%;
+}
+
+.extra-info{
+    background-color: #d6e2a3;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+}
+
+.location-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.arch{
+    width: 50%;
+}
+
+.arch-image{
+    width: 100%;
+    height: 100%;
+}
+
+.location-info{
+    text-align: center;
+    width: 50%;
+    background-color: #6ea330;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-info h1{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.booknow-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d6e2a3;
+    text-align: center;
+    align-items: center;
+    height: 300px;
+    padding: 1%;
+    font-size: 20px;
+}
+
+.booknow-section button{
+    margin-top: 1%;
+    height: 20%;
+    border: none;
+    border-radius: 20px;
+    background-color: #F0822B;
+    color: white;
+    font-size: 18px;
+    width: 10%;
+    font-family: 'Rubik Mono One', sans-serif;
+    cursor: pointer;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    list-style-type: none;
+}
+
+.socials li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #6ea330;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3%;
+    font-size: 20px;
+    color: white;
+    white-space: nowrap;
+}
+
+.booknow-button :hover{
+    background-color: rgb(197, 98, 22);
 }
