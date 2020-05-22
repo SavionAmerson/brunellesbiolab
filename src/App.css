@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+.navbar{
+    height: 100px;
+    background-color: #40cfa6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.support-bar{
+    font-size: 8px;
+    text-align: center;
+    background-color: #e1f5ee;
+    height: 50px;
+    display: flex;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home-img{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    background-image: url("./images/lab.jpg");
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    background-size: 100% 800px;
+    height: 800px;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .biolab{
+    width: 100%;
+    height: 100%;
+} */
