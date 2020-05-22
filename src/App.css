@@ -1,6 +1,10 @@
+body{
+    overflow-x: hidden;
+}
+
 .navbar{
     height: 100px;
-    background-color: #40cfa6;
+    background-color: #6ea330;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +17,7 @@
 .support-bar{
     font-size: 8px;
     text-align: center;
-    background-color: #e1f5ee;
+    background-color: #d6e2a3;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -25,16 +29,70 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 10%;
+    padding-left: 7%;
     background-image: url("./images/lab.jpg");
     background-repeat: no-repeat;
     /* background-size: auto; */
-    background-size: 100% 800px;
-    height: 800px;
+    background-size: 100% 600px;
+    height: 600px;
     color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-/* .biolab{
-    width: 100%;
-    height: 100%;
-} */
+.topic-section{
+    background-color: #6ea330;
+    height: 600px;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.topic-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dna{
+    color: black;
+    background-color: white;
+    width: 20%;
+    height: 450px;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.dna h2{
+    font-size: 10px; 
+}
+
+.bacteria{
+    color: black;
+    background-color: white;
+    width: 20%;
+    height: 450px;
+    margin-left: 10%;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.bacteria h2{
+    font-size: 10px; 
+}
+
+.cryogenics{
+    color: black;
+    background-color: white;
+    width: 20%;
+    height: 450px;
+    margin-left: 10%;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.cryogenics h2{
+    font-size: 10px; 
+}
