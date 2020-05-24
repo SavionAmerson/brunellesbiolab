@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    background-color: #d6e2a3;
 }
 
 .navbar{
@@ -231,4 +232,55 @@ body{
 
 .booknow-button :hover{
     background-color: rgb(197, 98, 22);
+}
+
+.booking-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.booking{
+    background-color: white;
+    width: 60%;
+    height: 1000px;
+    border-radius: 60px;
+    margin: 3%;
+}
+
+.booking-info{
+    text-align: center;
+}
+
+.appointment-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.appointment-info input {
+    margin-top: 5%;
+    border-radius: 20px;
+    border-style: solid;
+    text-align: center;
+    height: 30px;
+}
+
+.appointment-info label{
+    margin-top: 10%;
+}
+
+.book-button{
+    margin-top: 8%;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    background-color: #F0822B;
+    color: white;
+    font-size: 18px;
+    width: 20%;
+    font-family: 'Rubik Mono One', sans-serif;
+    cursor: pointer;
 }
